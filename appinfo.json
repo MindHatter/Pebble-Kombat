@@ -1,0 +1,380 @@
+{
+  "appKeys": {},
+  "capabilities": [
+    "configurable"
+  ],
+  "companyName": "menshikov.mh@yandex.ru",
+  "longName": "Pebble Kombat",
+  "resources": {
+    "media": [
+      {
+        "file": "images/menu_icon.png",
+        "menuIcon": true,
+        "name": "IMAGE_MENU_ICON",
+        "type": "png"
+      },
+      {
+        "file": "images/logo_splash.png",
+        "name": "IMAGE_LOGO_SPLASH",
+        "type": "png"
+      },
+      {
+        "file": "images/tile_splash.png",
+        "name": "IMAGE_TILE_SPLASH",
+        "type": "png"
+      },
+      {
+        "file": "fonts/UbuntuMono-Regular.ttf",
+        "name": "MONO_FONT_14",
+        "type": "font"
+      },
+      {
+        "file": "images/main_menu.png",
+        "name": "MENU",
+        "type": "png"
+      },
+      {
+        "file": "images/info_skull_a.png",
+        "name": "INFO_SKULL_A",
+        "type": "png"
+      },
+      {
+        "file": "images/info_skull_b.png",
+        "name": "INFO_SKULL_D",
+        "type": "png"
+      },
+      {
+        "file": "images/info_raven.png",
+        "name": "INFO_RAVEN",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/TOURNAMENT.png",
+        "name": "TOURNAMENT",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/SURVIVAL.png",
+        "name": "SURVIVAL",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/MADCAP.png",
+        "name": "MADCAP",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/Assasin.png",
+        "name": "AVATAR_ASSASIN",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/Berserk.png",
+        "name": "AVATAR_BERSERK",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/Monk.png",
+        "name": "AVATAR_MONK",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/SwordMan.png",
+        "name": "AVATAR_SWORDMAN",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/Necro.png",
+        "name": "AVATAR_NECRO",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/Guardian.png",
+        "name": "AVATAR_GUARDIAN",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/HeadHunter.png",
+        "name": "AVATAR_HEADHUNTER",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/Warrior.png",
+        "name": "AVATAR_WARRIOR",
+        "type": "png"
+      },
+      {
+        "file": "images/avatar/border.png",
+        "name": "AVATAR_BORDER",
+        "type": "png"
+      },
+      {
+        "file": "images/back/Archer.png",
+        "name": "BACK_ARCHER",
+        "type": "png"
+      },
+      {
+        "file": "images/back/Assasin.png",
+        "name": "BACK_ASSASIN",
+        "type": "png"
+      },
+      {
+        "file": "images/back/Berserk.png",
+        "name": "BACK_BERSERK",
+        "type": "png"
+      },
+      {
+        "file": "images/back/Monk.png",
+        "name": "BACK_MONK",
+        "type": "png"
+      },
+      {
+        "file": "images/back/SwordMan.png",
+        "name": "BACK_SWORDMAN",
+        "type": "png"
+      },
+      {
+        "file": "images/back/Necro.png",
+        "name": "BACK_NECRO",
+        "type": "png"
+      },
+      {
+        "file": "images/back/Guardian.png",
+        "name": "BACK_GUARDIAN",
+        "type": "png"
+      },
+      {
+        "file": "images/back/HeadHunter.png",
+        "name": "BACK_HEADHUNTER",
+        "type": "png"
+      },
+      {
+        "file": "images/back/Warrior.png",
+        "name": "BACK_WARRIOR",
+        "type": "png"
+      },
+      {
+        "file": "images/char/Assasin.png",
+        "name": "CHAR_ASSASIN",
+        "type": "png"
+      },
+      {
+        "file": "images/char/Berserk.png",
+        "name": "CHAR_BERSERK",
+        "type": "png"
+      },
+      {
+        "file": "images/char/Monk.png",
+        "name": "CHAR_MONK",
+        "type": "png"
+      },
+      {
+        "file": "images/char/SwordMan.png",
+        "name": "CHAR_SWORDMAN",
+        "type": "png"
+      },
+      {
+        "file": "images/char/Necro.png",
+        "name": "CHAR_NECRO",
+        "type": "png"
+      },
+      {
+        "file": "images/char/Guardian.png",
+        "name": "CHAR_GUARDIAN",
+        "type": "png"
+      },
+      {
+        "file": "images/char/HeadHunter.png",
+        "name": "CHAR_HEADHUNTER",
+        "type": "png"
+      },
+      {
+        "file": "images/char/Warrior.png",
+        "name": "CHAR_WARRIOR",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Archer_r.png",
+        "name": "ATTACK_ARCHER_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Assasin_l.png",
+        "name": "ATTACK_ASSASIN_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Assasin_r.png",
+        "name": "ATTACK_ASSASIN_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Berserk_l.png",
+        "name": "ATTACK_BERSERK_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Berserk_r.png",
+        "name": "ATTACK_BERSERK_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Monk_l.png",
+        "name": "ATTACK_MONK_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Monk_r.png",
+        "name": "ATTACK_MONK_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/SwordMan_l.png",
+        "name": "ATTACK_SWORDMAN_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/SwordMan_r.png",
+        "name": "ATTACK_SWORDMAN_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Necro_l.png",
+        "name": "ATTACK_NECRO_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Necro_r.png",
+        "name": "ATTACK_NECRO_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Guardian_l.png",
+        "name": "ATTACK_GUARDIAN_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Guardian_r.png",
+        "name": "ATTACK_GUARDIAN_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/HeadHunter_l.png",
+        "name": "ATTACK_HEADHUNTER_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/HeadHunter_r.png",
+        "name": "ATTACK_HEADHUNTER_r",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Warrior_l.png",
+        "name": "ATTACK_WARRIOR_l",
+        "type": "png"
+      },
+      {
+        "file": "images/attack/Warrior_r.png",
+        "name": "ATTACK_WARRIOR_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Archer_r.png",
+        "name": "BLOCK_ARCHER_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Assasin_l.png",
+        "name": "BLOCK_ASSASIN_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Assasin_r.png",
+        "name": "BLOCK_ASSASIN_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Berserk_l.png",
+        "name": "BLOCK_BERSERK_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Berserk_r.png",
+        "name": "BLOCK_BERSERK_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Monk_l.png",
+        "name": "BLOCK_MONK_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Monk_r.png",
+        "name": "BLOCK_MONK_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/SwordMan_l.png",
+        "name": "BLOCK_SWORDMAN_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/SwordMan_r.png",
+        "name": "BLOCK_SWORDMAN_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Necro_l.png",
+        "name": "BLOCK_NECRO_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Necro_r.png",
+        "name": "BLOCK_NECRO_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Guardian_l.png",
+        "name": "BLOCK_GUARDIAN_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Guardian_r.png",
+        "name": "BLOCK_GUARDIAN_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/HeadHunter_l.png",
+        "name": "BLOCK_HEADHUNTER_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/HeadHunter_r.png",
+        "name": "BLOCK_HEADHUNTER_r",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Warrior_l.png",
+        "name": "BLOCK_WARRIOR_l",
+        "type": "png"
+      },
+      {
+        "file": "images/block/Warrior_r.png",
+        "name": "BLOCK_WARRIOR_r",
+        "type": "png"
+      }
+    ]
+  },
+  "sdkVersion": "3",
+  "shortName": "Pebble Kombat",
+  "targetPlatforms": [
+    "basalt",
+    "diorite"
+  ],
+  "uuid": "70b18b69-2bb8-4bc9-86bd-66f4259dc58d",
+  "versionCode": 1.2,
+  "versionLabel": "1.2",
+  "watchapp": {
+    "watchface": false
+  }
+}
